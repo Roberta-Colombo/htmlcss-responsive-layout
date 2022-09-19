@@ -17,6 +17,7 @@ body {
     --violet: #9792E4;
     --sunglow: #FDC15F; 
     --grey20: #333333;
+    --grey: #607588;
 }
 
 .container {
@@ -73,6 +74,58 @@ header i {
     background-color: var(--violet);
     color: var(--white);
 }
+
+.cards {
+    padding: 40px 30px 60px;
+}
+
+.content-container {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: var(--grey); 
+}
+
+h2 {
+    color: var(--electricblue);
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+    font-weight: bolder;
+}
+
+.card-less-rounded {
+    border-radius: 20px;
+    background-color: var(--babyblue);
+    margin-bottom: 20px;
+}
+
+.phone-image img {
+    height: 300px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+button {
+    background-color: var(--electricblue);
+    border-style: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 12px 45px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+button i {
+    margin-right: 10px;
+}
+
+
 
 /* Style footer */
 
