@@ -125,6 +125,18 @@ button i {
     margin-right: 10px;
 }
 
+.centered i {
+    font-size: 4.5rem;
+    color: var(--electricblue);
+}
+
+.centered {
+    text-align:center;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+
+
 
 
 /* Style footer */
