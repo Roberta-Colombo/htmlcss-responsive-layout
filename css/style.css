@@ -23,6 +23,8 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .debug {
@@ -48,7 +50,7 @@ header {
     background-color: var(--electricblue);
     color: var(--white);
     height: 60px;
-    padding: 1rem 2rem;
+    padding-top: 1rem;
 }
 
 .logo {
@@ -83,7 +85,6 @@ header i {
     max-width: 80%;
     margin: 0 auto;
     line-height: 1.5;
-    color: var(--grey); 
 }
 
 h2 {
@@ -97,10 +98,12 @@ h2 {
     border-radius: 20px;
     background-color: var(--babyblue);
     margin-bottom: 20px;
+    color: var(--grey); 
 }
 
 .phone-image img {
     height: 300px;
+    width: 100%;
     text-align: center;
     margin-bottom: -5px;
 }
@@ -136,8 +139,16 @@ button i {
     padding-bottom: 1.8rem;
 }
 
+.planning1-image img {
+    height: 300px;
+    /* width: 80%; */
+    padding-top: 60px;
+}
 
-
+#planning h2 {
+    color: var(--white);
+    font-size: 2em;
+}
 
 /* Style footer */
 
