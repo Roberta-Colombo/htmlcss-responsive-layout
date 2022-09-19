@@ -29,10 +29,38 @@ body {
     border: 2px solid red;
 } 
 
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
 /* Style header */
 
 header {
     background-color: var(--electricblue);
+    color: var(--white);
+    height: 60px;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    height: 20px;
+}
+
+header img {
+    height: 150%;
+}
+
+header i {
+    font-size: 1.5rem;
+    vertical-align: middle;
 }
 
 /* Style main */
@@ -51,4 +79,16 @@ header {
 footer {
     background-color: var(--grey20);
     color: var(--white);
+}
+
+
+
+/* RESPONSIVE */
+
+/* Desktop */
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
 }
