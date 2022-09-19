@@ -1,0 +1,54 @@
+/* Utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root {
+    --white: #ffffff;
+    --electricblue: #0084FD;
+    --babyblue: #B5DDFF;
+    --violet: #9792E4;
+    --sunglow: #FDC15F; 
+    --grey20: #333333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.debug {
+    height: 50px;
+    border: 2px solid red;
+} 
+
+/* Style header */
+
+header {
+    background-color: var(--electricblue);
+}
+
+/* Style main */
+
+#intro, #testimonials, #about-us {
+    background-color: var(--white);
+} 
+
+#planning, #benefits, #get-started {
+    background-color: var(--violet);
+    color: var(--white);
+}
+
+/* Style footer */
+
+footer {
+    background-color: var(--grey20);
+    color: var(--white);
+}
