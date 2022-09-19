@@ -8,6 +8,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.5;
 }
 
 :root {
@@ -84,7 +85,6 @@ header i {
 .content-container {
     max-width: 80%;
     margin: 0 auto;
-    line-height: 1.5;
 }
 
 h2 {
@@ -139,15 +139,51 @@ button i {
     padding-bottom: 1.8rem;
 }
 
-.planning1-image img {
+.planning1-image img, .planning2-image img {
     height: 300px;
-    /* width: 80%; */
     padding-top: 60px;
 }
 
 #planning h2 {
     color: var(--white);
-    font-size: 2em;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+}
+
+.rounded-card .content-container.centered {
+    background-color: var(--white);
+    border-radius: 40px;
+    color: black;
+    margin-top: 2rem;
+}
+
+#planning {
+    padding-bottom: 3.5rem;
+}
+
+.planning2-image img {
+    padding-top: 0rem;
+    width: 100%;
+}
+
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.down-arrow {
+    height: 40px;
+    width: 40px;
+    background-color: var(--violet);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.down-arrow i {
+    font-size: 1em;
+    color: black;
 }
 
 /* Style footer */
