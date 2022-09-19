@@ -83,7 +83,7 @@ header i {
 }
 
 .content-container {
-    max-width: 80%;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ button i {
     padding-top: 60px;
 }
 
-#planning h2 {
+#planning h2, #testimonials h2 {
     color: var(--white);
     font-size: 2rem;
     padding-bottom: 2rem;
@@ -185,6 +185,37 @@ h3 {
     font-size: 1em;
     color: black;
 }
+#testimonials h2 {
+    color: var(--violet);
+    padding-top: 2.5rem;
+}
+
+.rounded-card-violet {
+    background-color: var(--violet);
+    border-radius: 40px;
+    color: var(--white);
+    margin-top: 2rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+.testimonial-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonial-image {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.name {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+
 
 /* Style footer */
 
