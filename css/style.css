@@ -94,29 +94,46 @@ h2 {
     font-weight: bolder;
 }
 
-.card-less-rounded {
+.less-rounded {
     border-radius: 20px;
     background-color: var(--babyblue);
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
+}
+
+.strongly-rounded {
+    border-radius: 40px;
+}
+
+.grey-txt {
     color: var(--grey); 
 }
 
 .phone-image img {
+    display: block;
     height: 300px;
     width: 100%;
     text-align: center;
-    margin-bottom: -5px;
 }
 
 button {
-    background-color: var(--electricblue);
     border-style: none;
     font-size: 0.9em;
-    font-weight: bold;
-    letter-spacing: 2px;
     padding: 12px 45px;
     margin: 40px auto;
     border-radius: 20px;
+}
+
+.letter-spacing {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.blue-btn {
+    background-color: var(--electricblue);
+}
+
+.violet-btn {
+    background-color: var(--violet);
 }
 
 button a {
@@ -151,13 +168,6 @@ button i {
     padding-top: 3.5rem;
 }
 
-.rounded-card .content-container.centered {
-    background-color: var(--white);
-    border-radius: 40px;
-    color: black;
-    margin-top: 2rem;
-}
-
 #planning {
     padding-bottom: 3.5rem;
 }
@@ -167,9 +177,10 @@ button i {
     width: 100%;
 }
 
-h3 {
-    padding-top: 1rem;
+.bigger-h3 {
+    padding-top: 0.8rem;
     padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .down-arrow {
@@ -185,18 +196,24 @@ h3 {
     font-size: 1em;
     color: black;
 }
+
 #testimonials h2 {
     color: var(--violet);
     padding-top: 2.5rem;
 }
 
-.rounded-card-violet {
+.violet-card {
     background-color: var(--violet);
-    border-radius: 40px;
     color: var(--white);
     margin-top: 2rem;
     padding-right: 0rem;
     padding-left: 0rem;
+}
+
+.white-card {
+    background-color: var(--white);
+    color: black;
+    margin-top: 2rem;
 }
 
 .testimonial-image img {
@@ -219,25 +236,19 @@ h3 {
     padding-bottom: 4rem;
 }
 
-#benefits h2 {
-    color: var(--white);
-    padding-top: 1.5rem;
-    text-align: center;
-}
-
-.card-less-rounded.white {
-    background-color: var(--white);
-}
-
 #benefits {
     padding-bottom: 2rem;
+    padding-top: 2.5rem;
 }
-#about-us h2 {
+
+#about-us {
     padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 #about-us p {
     line-height: 2;
+    padding-top: 2rem;
 }
 
 #about-us img {
@@ -247,21 +258,80 @@ h3 {
 }
 
 .about-image {
-    padding-top: 3rem;
     padding-bottom: 1.5rem;
 }
 
-#about-us p:last-of-type {
-    font-size: 1.5rem;
+.quote {
+    font-size: 12rem;
     color: var(--violet);
-    line-height: 1.5;
+    position: relative;
+    top: 220px;
+    left: 100px;
 }
+
+.small-pad {
+    padding: 7px 10px;
+}
+
+.opacity-txt {
+    opacity: 60%;
+}
+
+.medium-text {
+    font-size: 1.8rem;
+}
+
+.violet-txt {
+    color: var(--violet); 
+}
+
+.white-txt {
+    color: var(--white);
+}
+
+.orange-txt {
+    color: var(--sunglow);
+}
+
+.big-txt {
+    font-size: 3rem;
+}
+
+.tiny-txt {
+    font-size: 0.8rem;
+}
+
+.tiny-txt a {
+    color: var(--white); 
+}
+
+.white-btn {
+    background-color: var(--white);
+}
+
+.white-btn a {
+    color: var(--violet);
+}
+
+.wide-pad {
+    padding: 20px 60px;
+}
+
+#get-started {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 /* Style footer */
 
 footer {
     background-color: var(--grey20);
     color: var(--white);
+}
+
+footer .tiny-txt a {
+    color: var(--violet);
 }
 
 
