@@ -109,7 +109,7 @@ h2 {
 
 .phone-image img {
     display: block;
-    height: 300px;
+    height: 100%;
     width: 100%;
     text-align: center;
 }
@@ -405,6 +405,7 @@ footer .tiny-txt a {
     #benefits .cards  {
         display: flex;
         flex-flow: row wrap;
+        align-items: center;
     }
 
     .less-rounded.white-card {
@@ -454,5 +455,47 @@ footer .tiny-txt a {
 
     ul button.white-btn a {
         color: black;
+    }
+
+    #intro .less-rounded:first-child .content-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .phone-image {
+        align-self: flex-end;
+        margin-bottom: -10px;
+    }
+
+    .big-container {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto;
+        max-width: 950px;
+    }
+
+    .container .strongly-rounded.white-card {
+        align-self: flex-end;
+    }
+
+    .big-container .container {
+        width: calc(950px / 2);
+    }
+
+    .planning1-image img, .planning2-image img  {
+        width: 50%;
+        height: 50%;
+    }
+
+    .less-rounded.white-card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc((100% / 3) - 1.5rem);
+    }  
+
+    #get-started .container.centered, footer .container.centered {
+        width: 33.33%;
     }
 }  
