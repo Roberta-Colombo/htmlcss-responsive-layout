@@ -49,12 +49,6 @@ body {
     align-items: flex-start;
 }
 
-/* .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-} */
-
 /* Style header */
 
 header {
@@ -373,10 +367,43 @@ footer .tiny-txt a {
 
 /* RESPONSIVE */
 
-/* Desktop */
+/* Tablet */
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 768px) {
     nav {
         display: none;
     }
+
+    #intro .container.cards {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    #intro .less-rounded {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33.33% - 1.5rem);
+    }
+
+    #intro .less-rounded:first-child {
+        width: calc(66.66% - 1.5rem);
+    }
+
+    .test-pic-quote {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+
+    #benefits .cards  {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .less-rounded.white-card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(50% - 1.5rem);
+    }   
 }
