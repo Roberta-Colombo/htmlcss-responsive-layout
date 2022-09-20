@@ -45,6 +45,16 @@ body {
     align-items: center;
 }
 
+.align-start {
+    align-items: flex-start;
+}
+
+/* .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+} */
+
 /* Style header */
 
 header {
@@ -161,7 +171,7 @@ button i {
     padding-top: 60px;
 }
 
-#planning h2, #testimonials h2 {
+#planning h2 {
     color: var(--white);
     font-size: 2rem;
     padding-bottom: 2rem;
@@ -190,6 +200,9 @@ button i {
     border-radius: 100%;
     text-align: center;
     line-height: 40px;
+    position: relative;
+    left: 45%;
+    margin-top: 1.5rem;
 }
 
 .down-arrow i {
@@ -197,9 +210,10 @@ button i {
     color: black;
 }
 
-#testimonials h2 {
+#testimonials .medium-text {
     color: var(--violet);
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .violet-card {
@@ -214,17 +228,34 @@ button i {
     background-color: var(--white);
     color: black;
     margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .testimonial-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    display: inline;
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    margin-left: -25%;
 }
 
 .testimonial-image {
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+} 
+
+.strongly-rounded.violet-card {
     padding-top: 2rem;
-    padding-bottom: 1rem;
+}
+
+.strongly-rounded.violet-card p {
+    line-height: 2;
+    font-size: 1.2rem;
 }
 
 .name {
@@ -234,6 +265,10 @@ button i {
 
 #testimonials {
     padding-bottom: 4rem;
+}
+
+.small-quote {
+    font-size: 5rem;
 }
 
 #benefits {
