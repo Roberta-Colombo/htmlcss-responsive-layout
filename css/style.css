@@ -259,6 +259,8 @@ button i {
 
 .small-quote {
     font-size: 5rem;
+    line-height: 0;
+    vertical-align: bottom;
 }
 
 #benefits {
@@ -268,7 +270,7 @@ button i {
 
 #about-us {
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 #about-us p {
@@ -277,21 +279,27 @@ button i {
 }
 
 #about-us img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 
 .about-image {
     padding-bottom: 1.5rem;
+    position: relative;
+    margin-top: 2rem;
 }
 
 .quote {
     font-size: 12rem;
+    position: absolute;
     color: var(--violet);
-    position: relative;
-    top: 220px;
-    left: 100px;
+    top: -30px;
+    left: 120px;
+}
+
+.business-partner {
+    line-height: 1.2;
 }
 
 .small-pad {
@@ -399,7 +407,17 @@ footer .tiny-txt a {
     .test-pic-quote {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: flex-start;
+        justify-content: space-between;
+    }
+
+    .testimonial-cap {
+        width: 70%;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .testimonial-image {
+        width: 30%;
     }
 
     #benefits .cards  {
@@ -418,6 +436,16 @@ footer .tiny-txt a {
         display: flex;
         justify-content: space-between;
     }
+
+    .presentazione {
+        width: 70%;
+    }
+
+    .business-partner {
+        width: 30%;
+        margin-left: 100px;
+    }
+
 }
 
 /* Desktop 992px */
